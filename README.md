@@ -48,7 +48,29 @@ Mature red blood cells lose their nuclei and active mRNA, so they cannot be anal
 ![Gene Expression](screenshots/02_Assigned_gene_expression.png)
 ***Figure 2.** Single-cell UMAP plot of the Glioblastoma dataset (`gbm`) recolored by HBB gene expression.*
 
-The UMAP plot shows that *HBB* expression is highly restricted rather than widespread. High expression levels are concentrated specifically in the Red blood cells cluster and vascular components like Endothelial cells. In contrast, neural progenitors, astrocytes, microglia, and primary tumor cell types remain completely uncolored, proving that *HBB* functions strictly as an erythroid/vascular lineage marker within this tissue sample.
+The UMAP plot shows that *HBB* expression is highly restricted rather than widespread. High expression levels are concentrated specifically in the Red blood cells cluster and vascular components like Endothelial cells. In contrast, neural progenitors, astrocytes, microglia, and primary tumor cell types remain completely uncolored, proving that *HBB* functions strictly as an erythroid lineage marker within this tissue sample.
+
+---
+## Part E. Identify the Cell Types Expressing Your Gene
+
+In this section, we compare the *HBB* gene expression heatmap directly against the annotated cell-type map. By cross-referencing cell clusters with their expression signals, we can locate which specific cell populations actively express *HBB* and which show no activity.
+
+- **Cell type/cluster with the strongest visible expression:** Red blood cells cluster.
+- **Another cell type/cluster with detectable expression:** Endothelial cluster
+- **Cell type/cluster with relatively low or undetected expression:** Major brain and tumor lineages which includes Radial Glia,OPC,Microglia, and Neuron clusters—show virtually no detectable expression.
+- **Is the expression pattern broad or cell-type restricted?** Strictly cell-type restricted.
+- **Biological Explanation:**
+  In this glioblastoma dataset, the *HBB* expression is tightly restricted because hemoglobin subunit beta is naturally produced by red blood cells rather than native brain tissue. The detected expression comes from intact erythroid precursors trapped within the tumor’s microvascular network. Since glioblastoma cells, neurons, and glial lineages do not express hemoglobin genes under standard conditions, signal remains confined exclusively to red blood cells and vascular elements in the sample.
+
+
+![Cell Type Assignment and HBB Gene Expression Split Screen](screenshots/03_Cell_types.png)
+***Figure 3.** Side-by-side split screen view of the Glioblastoma dataset showing Cell Type Assignment annotations on the left alongside HBB gene expression mapping on the right.*
+
+Comparing the annotation map directly to the gene expression map confirms that *HBB* isn't randomly scattered across the tumor mass. High expression aligns directly with the Red blood cells cluster and adjacent Endothelial cells, while all primary brain tumor lineages remain completely uncolored. This demonstrates clear lineage-specific expression within the sample.
+
+## VI
+
+
 
 
  
