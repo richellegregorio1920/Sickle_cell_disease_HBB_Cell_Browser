@@ -154,9 +154,39 @@ To bridge sequence-level genomic architecture with single-cell tissue expression
   No, a single single-cell transcriptomics dataset cannot prove that *HBB* causes Sickle Cell Disease. Single-cell RNA sequencing only measures steady-state mRNA abundance within individual cells at a specific snapshot in time, where a gene is transcribed rather than how structural alterations in the gene product cause pathology. To establish disease causation, expression data must be combined with genetic sequencing, structural biochemistry showing protein sickling under deoxygenation and clinical studies linking the p.Glu6Val variant directly to red blood cell distortion and vaso-occlusion.
 
 ---
+## X. Short Reflection
 
+- **1. What did the UCSC Cell Browser show you that the UCSC Genome Browser could not?**
+  The UCSC Cell Browser showed me how *HBB* expression differs among individual cell types, especially its concentration within the Red blood cells cluster. In comparison, the UCSC Genome Browser helped me examine the genomic location, exon-intron structure, and variant position (p.Glu6Val) of *HBB*. Using both browsers allowed me to view the gene from both a structural genomic perspective and a living cellular context.
 
+- **2. Why can the same gene have different expression levels among different cell types?**
+  The same gene can have different expression levels because different cell types perform specialized functions and do not need to transcribe every gene at equal levels. A gene like *HBB* is expressed heavily in erythroid lineages where oxygen transport is essential, while being expressed at low levels or completely silenced in neural and glial cells where beta-globin serves no functional purpose.
 
+- **3. Why should you be careful when interpreting a gene that shows zero or very low expression in single-cell data?**
+  Zero or very low expression in single-cell data does not always mean that the gene is completely absent or inactive in that cell type. Technical limitations such as RNA dropouts or low capture efficiency can cause active transcripts to be missed during sequencing. Therefore, low or zero values should be interpreted carefully as "undetected in this specific snapshot" rather than immediately concluding the gene is never expressed.
+
+- **4. Why is it useful to combine information about genomic location, genetic variants, and cell-specific gene expression?**
+  Combining these types of information gives a more complete understanding of a disease-associated gene. Genomic information shows where *HBB* and its pathogenic variant (HbS) are located at the sequence level, while cell-specific expression helps identify the precise cell types where the gene is active. Together, these tools connect the primary DNA mutation directly to its tissue-level and physiological consequences.
+
+- **5. What was the most interesting observation you made about your assigned gene?**
+  What intrigued me most was seeing *HBB* expression pop up strongly inside a glioblastoma brain tissue dataset, strictly localized to a tiny cluster of 39 red blood cells. It was amazing to see how single-cell transcriptomics can clearly separate circulating microvascular blood cells trapped inside tumor vessels from the surrounding brain tissue, making the connection between the gene, its erythroid lineage, and the tumor's blood supply much easier to understand.
+
+---
+# Reference Links for HBB Lab Report
+
+## Project & Code Repository
+- Previous Lab Repository: https://github.com/richellegregorio1920/Gregorio-SickleCell-HBB-mutation-lab
+
+## UCSC Platforms & Datasets
+- UCSC Cell Browser Main Portal: https://cells.ucsc.edu/
+- UCSC Cell Browser (Glioblastoma Datasets): https://cells.ucsc.edu/?ds=gbm-nvp
+- UCSC Genome Browser (HBB Gene Entry): https://genome.ucsc.edu/cgi-bin/hgGene?db=hg38&hgg_gene=HBB
+
+## Biological & Database References
+- NCBI Gene Portal (HBB - Gene ID 3043): https://www.ncbi.nlm.nih.gov/gene/3043
+- NCBI ClinVar (HBB HbS Variant / rs334): https://www.ncbi.nlm.nih.gov/clinvar/variation/15286/
+- UniProtKB Entry (HBB - P68871): https://www.uniprot.org/uniprotkb/P68871/entry
+- Human Protein Atlas (HBB Entry): https://www.proteinatlas.org/ENSG00000244734-HBB
 
 
 
