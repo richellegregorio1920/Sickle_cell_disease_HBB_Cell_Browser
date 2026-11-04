@@ -172,23 +172,29 @@ To bridge sequence-level genomic architecture with single-cell tissue expression
   What intrigued me most was seeing *HBB* expression pop up strongly inside a glioblastoma brain tissue dataset, strictly localized to a tiny cluster of 39 red blood cells. It was amazing to see how single-cell transcriptomics can clearly separate circulating microvascular blood cells trapped inside tumor vessels from the surrounding brain tissue, making the connection between the gene, its erythroid lineage, and the tumor's blood supply much easier to understand.
 
 ---
-# Reference Links for HBB Lab Report
+# References
+## Project Repository & Platforms
+* **Previous Lab Repository:** https://github.com/richellegregorio1920/Gregorio-SickleCell-HBB-mutation-lab
+* **UCSC Cell Browser Main Portal:** https://cells.ucsc.edu/
+* **UCSC Cell Browser (Glioblastoma Dataset):** https://cells.ucsc.edu/?ds=gbm-nvp
+* **UCSC Genome Browser (*HBB* Gene Entry):** https://genome.ucsc.edu/cgi-bin/hgGene?db=hg38&hgg_gene=HBB
+* **UniProtKB Entry (*HBB* - P68871):** https://www.uniprot.org/uniprotkb/P68871/entry
+* **Human Protein Atlas (*HBB* Entry):** https://www.proteinatlas.org/ENSG00000244734-HBB
 
-## Project & Code Repository
-- Previous Lab Repository: https://github.com/richellegregorio1920/Gregorio-SickleCell-HBB-mutation-lab
+## Literature & Database Citations
+Bender, M. A., & Carlberg, K. (2025). Sickle cell disease. In *GeneReviews®*. University of Washington, Seattle. https://www.ncbi.nlm.nih.gov/books/NBK1377/
 
-## UCSC Platforms & Datasets
-- UCSC Cell Browser Main Portal: https://cells.ucsc.edu/
-- UCSC Cell Browser (Glioblastoma Datasets): https://cells.ucsc.edu/?ds=gbm-nvp
-- UCSC Genome Browser (HBB Gene Entry): https://genome.ucsc.edu/cgi-bin/hgGene?db=hg38&hgg_gene=HBB
+Centers for Disease Control and Prevention. (n.d.). *About sickle cell disease*. U.S. Department of Health & Human Services. https://www.cdc.gov/ncbddd/sicklecell/about.html
 
-## Biological & Database References
-- NCBI Gene Portal (HBB - Gene ID 3043): https://www.ncbi.nlm.nih.gov/gene/3043
-- NCBI ClinVar (HBB HbS Variant / rs334): https://www.ncbi.nlm.nih.gov/clinvar/variation/15286/
-- UniProtKB Entry (HBB - P68871): https://www.uniprot.org/uniprotkb/P68871/entry
-- Human Protein Atlas (HBB Entry): https://www.proteinatlas.org/ENSG00000244734-HBB
+MedlinePlus Genetics. (n.d.). *HBB gene*. U.S. National Library of Medicine. https://medlineplus.gov/genetics/gene/hbb/
 
+Meremikwu, M. M., & Okomo, U. (2016). Sickle cell disease. *BMJ Clinical Evidence*, 2016, 2402. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782970/
 
+National Center for Biotechnology Information. (n.d.). *ClinVar: NM_000518.5(HBB):c.20A>T (p.Glu7Val)* [Variation ID: 15286]. U.S. National Library of Medicine. https://www.ncbi.nlm.nih.gov/clinvar/variation/15286/
+
+National Center for Biotechnology Information. (n.d.). *HBB: Hemoglobin subunit beta* [Gene ID: 3043]. U.S. National Library of Medicine. https://www.ncbi.nlm.nih.gov/gene/3043
+
+Rare Disease Advisor. (n.d.). *Sickle cell disease genetics*. https://www.rarediseaseadvisor.com/disease-info/sickle-cell-disease/genetics/
 
 
  
