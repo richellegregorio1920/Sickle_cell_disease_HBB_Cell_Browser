@@ -176,7 +176,7 @@ To bridge sequence-level genomic architecture with single-cell tissue expression
 ## Project Repository & Platforms
 * **Previous Lab Repository:** https://github.com/richellegregorio1920/Gregorio-SickleCell-HBB-mutation-lab
 * **UCSC Cell Browser Main Portal:** https://cells.ucsc.edu/
-* **UCSC Cell Browser (Glioblastoma Dataset):** https://cells.ucsc.edu/?ds=gbm-nvp
+* **UCSC Cell Browser (Glioblastoma Dataset - Cell Type Assignment):** https://cells.ucsc.edu/?ds=gbm&label=CellTypeAssignment
 * **UCSC Genome Browser (*HBB* Gene Entry):** https://genome.ucsc.edu/cgi-bin/hgGene?db=hg38&hgg_gene=HBB
 * **UniProtKB Entry (*HBB* - P68871):** https://www.uniprot.org/uniprotkb/P68871/entry
 * **Human Protein Atlas (*HBB* Entry):** https://www.proteinatlas.org/ENSG00000244734-HBB
@@ -195,6 +195,3 @@ National Center for Biotechnology Information. (n.d.). *ClinVar: NM_000518.5(HBB
 National Center for Biotechnology Information. (n.d.). *HBB: Hemoglobin subunit beta* [Gene ID: 3043]. U.S. National Library of Medicine. https://www.ncbi.nlm.nih.gov/gene/3043
 
 Rare Disease Advisor. (n.d.). *Sickle cell disease genetics*. https://www.rarediseaseadvisor.com/disease-info/sickle-cell-disease/genetics/
-
-
- 
